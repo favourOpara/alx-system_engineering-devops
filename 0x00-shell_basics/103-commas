@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1a | awk '{gsub(/\n/,""); printf "%s%s",sep,$0; sep=","} END {print ""}' | sed -E 's/(.*)\/$/\1\//' | LC_ALL=C sort -n -t '\0' -k 1.1
+ls -1a | awk '{printf "%s%s",sep,$0; sep=","} END {print ""}' | sed -E 's/(.*)\/$/\1\//' | LC_ALL=C sort -n -t $'\0' -k 1.1
