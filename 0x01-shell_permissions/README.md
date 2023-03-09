@@ -8,3 +8,4 @@ chmod u+x hello
 chmod ug+x,o+r hello
 #!/bin/bash
 chmod ugo+x hello
+chmod 0777 hello
