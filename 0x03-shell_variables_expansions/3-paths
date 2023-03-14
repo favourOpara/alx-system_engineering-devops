@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "The PATH environment variable contains $(echo $PATH | tr ":" " " | wc -w) directories."
+echo $(echo $PATH | tr ":" " " | wc -w)
