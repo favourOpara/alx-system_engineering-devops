@@ -1,6 +1,0 @@
-#!/bin/bash
-<<<<<<< HEAD
-echo "hello $(whoami)"
-=======
-echo "Hello $(Myuser)"
->>>>>>> d87f39594f82d6e5325708150bb91ae0cade361f
